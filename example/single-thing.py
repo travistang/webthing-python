@@ -23,7 +23,7 @@ class FadeAction(Action):
 
 
 def make_thing():
-    thing = Thing('My Lamp', ['OnOffSwitch', 'Light'], 'A web connected lamp')
+    thing = Thing("Lamp:id",'My Lamp', ['OnOffSwitch', 'Light'], 'A web connected lamp')
 
     thing.add_property(
         Property(thing,
